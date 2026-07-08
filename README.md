@@ -67,7 +67,7 @@ across seeds; and report negative results honestly.
 ## Repository structure
 
 ```
-src/representation_geometry/   # shared library: worlds, model, probes, architecture, targets
+src/task_manifold_geometry/   # shared library: worlds, model, probes, architecture, targets
   experiments/                 #   per-experiment orchestration + configs
 experiments/                   # run scripts, per-experiment writeups (README.md), and outputs
   exp1_task/
@@ -93,7 +93,7 @@ tables in the corresponding `experiments/<name>/outputs/` directory.
 
 ## Probes
 
-The geometry probes (in `src/representation_geometry/probes.py`) are reusable beyond
+The geometry probes (in `src/task_manifold_geometry/probes.py`) are reusable beyond
 these experiments — they measure the geometric change between any two representational
 states:
 
