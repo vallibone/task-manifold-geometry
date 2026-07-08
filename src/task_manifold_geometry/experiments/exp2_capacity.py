@@ -15,13 +15,13 @@ matplotlib.use("Agg")
 import numpy as np
 import pandas as pd
 
-from representation_geometry.architecture import scale_template_to_budget
-from representation_geometry.runner import run_representation_experiment
-from representation_geometry.worlds import build_world
-from representation_geometry.models import MLPRepresentationModel
-from representation_geometry.plotting import plot_capacity_allocation_grid
-from representation_geometry.probes import probe_logits_row
-from representation_geometry.targets import make_target_by_scheme
+from task_manifold_geometry.architecture import scale_template_to_budget
+from task_manifold_geometry.runner import run_representation_experiment
+from task_manifold_geometry.worlds import build_world
+from task_manifold_geometry.models import MLPRepresentationModel
+from task_manifold_geometry.plotting import plot_capacity_allocation_grid
+from task_manifold_geometry.probes import probe_logits_row
+from task_manifold_geometry.targets import make_target_by_scheme
 
 
 OUTPUT_DIR = Path(__file__).resolve().parent / "outputs"

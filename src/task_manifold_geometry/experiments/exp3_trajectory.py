@@ -15,24 +15,24 @@ matplotlib.use("Agg")
 import numpy as np
 import pandas as pd
 
-from representation_geometry.architecture import count_mlp_parameters, scale_template_to_budget
-from representation_geometry.runner import run_representation_experiment
-from representation_geometry.worlds import build_world
-from representation_geometry.models import MLPRepresentationModel
-from representation_geometry.plotting import (
+from task_manifold_geometry.architecture import count_mlp_parameters, scale_template_to_budget
+from task_manifold_geometry.runner import run_representation_experiment
+from task_manifold_geometry.worlds import build_world
+from task_manifold_geometry.models import MLPRepresentationModel
+from task_manifold_geometry.plotting import (
     LAYER_ORDER,
     plot_layerwise_seed_distribution,
     plot_scheme_delta_summary,
     plot_scheme_layerwise_summary,
 )
-from representation_geometry.probes import (
+from task_manifold_geometry.probes import (
     distance_correlation_by_layer,
     geodesic_knn_preservation_by_layer,
     knn_preservation_by_layer,
     latent_reconstruction_by_layer,
     pca_summary_by_layer,
 )
-from representation_geometry.targets import make_target_by_scheme
+from task_manifold_geometry.targets import make_target_by_scheme
 
 
 OUTPUT_DIR = Path(__file__).resolve().parent / "outputs"

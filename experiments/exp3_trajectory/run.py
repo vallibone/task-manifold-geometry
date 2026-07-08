@@ -2,7 +2,7 @@
 
 from pathlib import Path
 
-from representation_geometry.experiments import exp3_trajectory
+from task_manifold_geometry.experiments import exp3_trajectory
 
 
 exp3_trajectory.OUTPUT_DIR = Path(__file__).resolve().parent / "outputs"

@@ -8,11 +8,11 @@ version = "0.1.0"
 description = "Experiments on how task structure, capacity, and depth govern learned representation geometry."
 requires-python = ">=3.10"
 dependencies = [
-    "matplotlib",
-    "numpy",
-    "pandas",
-    "scikit-learn",
-    "torch",
+    "matplotlib==3.11.0",
+    "numpy==2.5.1",
+    "pandas==3.0.3",
+    "scikit-learn==1.9.0",
+    "torch==2.12.1",
 ]
 
 [tool.setuptools.packages.find]
